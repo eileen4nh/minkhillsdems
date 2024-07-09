@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="/js/script.js" defer></script>
+    <title>Mink Hills Democrats</title>
+</head>
+
+<body class="overflow-x-hidden bg-blue-100">
+
+    <!-- *** NAVIGATION BAR *** -->
+    <nav id="navbar" class="sticky top-0 z-50 m-auto bg-blue-200 py-4 font-display origin-top"
+        style="transition: 0.3s;">
+        <!-- Flex Container for Nav Items -->
+        <div class="flex items-center justify-between px-12 md:px-1 md:justify-center gap-10 lg-gap-5">
+            <!-- Logo -->
+            <div class="z-30">
+                <a href="#hero"><img src="/img/logo/MinkHillsDemsLogo.png" alt="" id="logo" class="w-24 "></a>
+            </div>
+            <!-- Center Main Menu Items -->
+            <div class="hidden lg:w-2/5 md:flex flex-row justify-center space-x-4 lg:space-x-6 text-blue-950 ">
+                <a href="#candidates" class="hover:text-blue-600 text-xl lg:text-2xl text-nowrap">The Candidates</a>
+                <a href="#priorities" class="hover:text-blue-600 text-xl lg:text-2xl">Priorities</a>
+                <a href="#photoGallery" class=" hover:text-blue-600 text-xl lg:text-2xl text-nowrap">Photo Gallery</a>
+            </div>
+            <!-- Right CTA Buttons-->
+            <div class="hidden md:flex flex-row space-x-4">
+                <a href="#signup"
+                    class="px-5 py-2 text-xl text-blue-600  border-2 border-blue-600 rounded-lg shadow-sm  hover:text-white hover:bg-blue-600 active:border-blue-900   active:bg-blue-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Volunteer</a>
+                <a href="https://secure.actblue.com/donate/minkhillsdems"
+                    class="px-5 py-2 text-xl text-white bg-red-600 border-2 border-red-600 rounded-lg shadow-sm shadow-red-900 hover:text-red hover:bg-red-800 hover:border-red-800 active:border-red-950  hover:shadow-red-950 active:bg-red-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Donate</a>
+            </div>
+            <!-- Hamburger Menu (Only visible on small screens) -->
+            <div class="md:hidden "><button id="menu-btn" type="button"
+                    class="z-40 block hamburger md:hidden focus:outline-none ">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+
+                </button></div>
+        </div>
+
+    </nav>
+    <!-- *** Mobile Menu ** -->
+    <div id="mobile-menu"
+        class="fixed z-30 top-0 bottom-0 left-0 hidden flex-col w-full min-h-screen pt-40 p-12 space-y-3 text-4xl text-white font-display bg-slate-900 opacity-95 origin-top animate-open-menu"
+        aria-label="mobile-menu">
+        <a href="#candidates" class="hover:text-blue-600 text-nowrap self-end">The Candidates</a>
+        <a href="#priorities" class="hover:text-blue-600 self-end">Priorities</a>
+        <a href="#photoGallery" class=" hover:text-blue-600 text-nowrap self-end">Photo Gallery</a>
+
+        <a href="#signup"
+            class="px-5 py-2 text-xl w-fit self-end text-blue-600 border-2 border-blue-600 rounded-lg shadow-sm  hover:text-white hover:bg-blue-600 active:border-blue-950   active:bg-blue-950  active:shadow-none transition duration-100 ease-out hover:ease-in">Volunteer</a>
+        <a href="https://secure.actblue.com/donate/minkhillsdems"
+            class="px-5 py-2  text-xl w-fit self-end text-white bg-red-600 border-2 border-red-600 rounded-lg shadow-sm shadow-red-900 hover:text-red hover:bg-red-800 hover:border-red-800 active:border-red-950  hover:shadow-red-950 active:bg-red-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Donate</a>
+
+    </div>
+
+    <!-- *** HERO SECTION *** -->
+    <section id="hero">
+        <!-- Container for text and main photo -->
+        <div class="container flex flex-col mx-auto p-6 md:flex-row md:mb-0 md:gap-6">
+            <!-- Top Text -->
+            <div
+                class="flex flex-col space-y-2 md:justify-center md:w-1/2 bg-nh-outline bg-center bg-contain bg-no-repeat">
+                <h1
+                    class="font-display text-6xl tracking-widest font-medium text-blue-800 text-center md:text-7xl md:tracking-wide ">
+                    Bradford
+                </h1>
+                <div class="starsRow flex flex-row gap-2 justify-center m-0 p-0"> <i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i></div>
+
+                <h1
+                    class="font-display text-6xl tracking-widest font-medium text-blue-800 text-center md:text-7xl md:tracking-wide ">
+                    Henniker</h1>
+                <div class="starsRow flex flex-row gap-2 justify-center m-0 p-0"> <i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i></div>
+                <h1
+                    class="font-display text-6xl tracking-widest font-medium text-blue-800 text-center md:text-7xl md:tracking-wide ">
+                    Warner</h1>
+                <h2 class="font-display text-3xl font-medium pb-6 text-blue-900 text-center md:text-4xl ">Merrimack
+                    County
+                    <br />
+                    House District 8
+                </h2>
+            </div>
+
+            <!-- Hero Photo -->
+            <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2"><img src="/img/FilingHenniker.png"
+                    alt="Stephanie, Eileen, and Tony outside Henniker town offices holding their filing applications"
+                    class="relative lg:top-0 xl:top-0 overflow-x-visible"></div>
+        </div>
+    </section>
+
+    <!-- *** Call To Action Flags *** -->
+    <!-- * Flag Container * -->
+    <section class="flex flex-wrap lg:flex-row pb-12 gap-4 lg:gap-12 justify-center">
+        <!-- Voting Info Flag -->
+        <div class="ctaFlagVoting">
+            <div class="w-36 h-52 md:w-56 md:h-64 xl:w-72 xl:h-80  bg-blue-900 justify-center inline-flex">
+                <div class="flex-col justify-center items-center gap-3 inline-flex">
+                    <!-- Icon Noir Icon -->
+                    <i class="iconoir-badge-check text-5xl md:text-8xl text-white"></i>
+                    <div class="self-stretch text-center text-white text-3xl md:text-4xl font-normal font-display">
+                        Voting<br />Info</div>
+                </div>
+            </div>
+            <div class="flag-fringe relative bottom-2.5 md:bottom-4 xl:bottom-5 m-0">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292 38" fill="none">
+                    <path d="M0.5 38.7034V19.7034L148.259 0.703369L292.5 19.7034V38.7034L148.259 20.2034L0.5 38.7034Z"
+                        fill="#DE2424" />
+                </svg>
+            </div>
+        </div>
+        <!-- Get Involved Flag -->
+        <div class="ctaFlagGetInvolved">
+            <a href="#signup">
+                <div
+                    class="w-36 h-52 md:w-56 md:h-64 xl:w-72 xl:h-80 bg-blue-900 justify-center items-center inline-flex">
+                    <div class="flex-col justify-center items-center gap-3 inline-flex">
+
+                        <!-- Icon Noir Icon -->
+                        <i class="iconoir-bright-star text-5xl md:text-8xl text-white"></i>
+                        <h1 class="self-stretch text-center text-white text-3xl md:text-4xl font-normal font-display">
+                            Get<br />Involved</h1>
+                    </div>
+                </div>
+                <div class="flag-fringe relative bottom-2.5 md:bottom-4 xl:bottom-5 m-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292 38" fill="none">
+                        <path
+                            d="M0.5 38.7034V19.7034L148.259 0.703369L292.5 19.7034V38.7034L148.259 20.2034L0.5 38.7034Z"
+                            fill="#DE2424" />
+                    </svg>
+                </div>
+            </a>
+        </div>
+        <!-- Donate Flag -->
+        <div class="ctaFlagDonate">
+            <a href="https://secure.actblue.com/donate/minkhillsdems">
+                <div
+                    class="w-36 h-52 md:w-56 md:h-64 xl:w-72 xl:h-80 bg-blue-900 justify-center items-center inline-flex">
+                    <div class="flex-col justify-center items-center gap-3 inline-flex">
+
+                        <!-- Icon Noir Icon -->
+                        <i class="iconoir-donate text-5xl md:text-8xl text-white"></i>
+                        <h1 class="self-stretch text-center text-white text-3xl md:text-4xl font-normal font-display">
+                            Donate</h1>
+                    </div>
+                </div>
+                <div class="flag-fringe relative bottom-2.5 md:bottom-4 xl:bottom-5 m-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292 38" fill="none">
+                        <path
+                            d="M0.5 38.7034V19.7034L148.259 0.703369L292.5 19.7034V38.7034L148.259 20.2034L0.5 38.7034Z"
+                            fill="#DE2424" />
+                    </svg>
+                </div>
+            </a>
+        </div>
+
+    </section>
+    <section id="candidates" class="bg-blue-300 py-12">
+        <div class=" mx-auto md:container">
+            <h2 class="mb-6 text-5xl font-display text-center text-blue-950">Meet The Candidates</h2>
+            <div
+                class="columns-3 relative flex flex-col items-start justify-center min-w-5xl mx-auto md:px-2 md:space-y-0 md:space-x-7 md:flex-row ">
+                <div id="tony-info" class="flex basis-1/3 items-center flex-col gap-2  md:rounded-md md:py-6">
+                    <img src="/img/biopics/TonyCaplanHeadShotSmall.jpg" alt="Tony Caplan headshot"
+                        class="w-4/5 md:w-80 rounded-lg">
+
+                    <h3 class="text-3xl font-display text-center content-end pb-1">Representative <br /> Tony Caplan
+                    </h3>
+
+                    <div class="social-media-links-container space-y-2 py-4">
+                        <a href="mailto: anthonycaplan1@gmail.com"
+                            class="email-container flex flex-row gap-2 text-lg bg-green-200 rounded-md w-fit px-2 py-1 ">
+                            <i class="iconoir-send-mail  self-center text-2xl"></i>
+                            <p> anthonycaplan1@gmail.com</p>
+                        </a>
+                        <a href="https://www.facebook.com/Minkhillsrep" target="_blank" rel="noopener noreferrer"
+                            class="facebook-container flex flex-row gap-2 text-lg bg-green-200 rounded-md w-fit px-2 py-1">
+                            <i class="iconoir-facebook self-center text-2xl"></i>
+                            <p>facebook.com/Minkhillsrep</p>
+                        </a>
+                    </div>
+                    <p class="w-4/5 text-zinc-900 text-wrap">Born overseas, (Caracas, Venezuela), to American
+                        parents.
+                        High
+                        school and
+                        college in Connecticut.
+                        Worked as a journalist in Latin America and Europe. Moved to Henniker, NH in 2000. Raised
+                        three
+                        children on a smallholding with vegetables, apples and sheep. Chair of the Henniker Energy
+                        Committee
+                        and Henniker Democratic Town Committee. Legislative interests include climate protection and
+                        the
+                        environment, worker's rights, sustainable housing and transportation issues.</p>
+
+                </div>
+                <div class="md:hidden starsRow flex flex-row gap-2 justify-center m-auto p-6"> <i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i></div>
+                <div id="eileen-info" class="flex basis-1/3 flex-col items-center md:py-6 gap-2 class=" text-zinc-900 ">
+                    <img src=" /img/biopics/EileenKellyHeadShotcropped.jpg" alt="Eileen Kelly headshot"
+                    class="w-4/5 md:w-80 md:min-w-60 rounded-md">
+
+                    <h3 class="text-3xl py-4 font-display content-end">Eileen Kelly</h3>
+                    <div class="social-media-links-container justify-start space-y-2 py-4">
+                        <a href="mailto: Eileen4NH@gmail.com"
+                            class="email-container flex flex-row gap-2 text-lg bg-green-200 rounded-md w-fit px-2 py-1">
+                            <i class="iconoir-send-mail  self-center text-2xl"></i>
+                            <p> Eileen4NH@gmail.com</p>
+                        </a>
+                        <a href="https://www.facebook.com/people/Eileen4NH/61562013860187/" target="_blank"
+                            rel="noopener noreferrer"
+                            class="facebook-container flex flex-row gap-2 text-lg bg-green-200 rounded-md w-fit px-2 py-1">
+                            <i class="iconoir-facebook self-center text-2xl"></i>
+                            <p>Eileen4NH</p>
+                        </a>
+                    </div>
+                    <p class="w-4/5">Eileen served as Chief of Staff to the New Hampshire Speaker of
+                        the House from 2018 - 2020. For more than nineteen years, Eileen was the Senior Legislative
+                        Policy Assistant for the House Democratic Leadership and Caucus at the NH House of
+                        Representatives. 
+                    </p>
+                    <p class="w-4/5">
+                        Eileen currently serves on the Board of Directors for NH Hunger Solutions and is the Chair of
+                        the Bradford Democrats. 
+                        Eileen also served on the Board of Directors for the New Hampshire Coalition Against Domestic
+                        and Sexual Violence including as Board Chair; the Bradford Town Hall Restoration Committee,
+                        former Chair; the Town of Bradford Needs Assessment Committee and is currently an election
+                        official for Bradford. 
+                        Eileen holds a BA in English from New England College, summa cum laude. She has two adult sons
+                        and her Mom recently celebrated her 96th birthday! </p>
+                </div>
+                <div class="md:hidden starsRow flex flex-row gap-2 justify-center m-auto p-6"> <i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i></div>
+                <div id="stephanie-info" class="flex flex-col basis-1/3 md:py-6 gap-2 items-center">
+                    <img src="/img/biopics/StephaniePayeurHeadshotSmall.jpg" alt="Stephanie Payeur headshot"
+                        class="w-4/5 md:w-80 md:min-w-60 rounded-md">
+
+                    <h3 class="text-3xl font-display pb-2 text-center flex">Representative <br /> Stephanie Payeur</h3>
+                    <div class="social-media-links-container justify-start space-y-2 py-4">
+                        <a href="mailto: stephanie.payeur@gmail.com"
+                            class="email-container flex flex-row gap-2 text-lg bg-green-200 rounded-md w-fit px-2 py-1">
+                            <i class="iconoir-send-mail  self-center text-2xl"></i>
+                            <p>stephanie.payeur@gmail.com</p>
+                        </a>
+                        <a href="https://www.facebook.com/hennikerdemocrats.org/" target="_blank"
+                            rel="noopener noreferrer"
+                            class="facebook-container flex flex-row gap-2 text-lg bg-green-200 rounded-md w-fit px-2 py-1">
+                            <i class="iconoir-facebook self-center text-2xl"></i>
+                            <p>facebook.com/hennikerdemocrats.org/</p>
+                        </a>
+                    </div>
+                    <p class="w-4/5"">I am thrilled to be running for re-election to the NH State
+                            House
+                            of Representatives for Merrimack County District 8.   I enjoyed my first two-year term and I
+                            hope you will send me back in 2024!  One of the good things with voting for an incumbent is
+                            that
+                            voters can clearly see my voting record on all issues. </p>
+                        <p class=" w-4/5">
+                        I have lived in Henniker for 21 years.  I was born and raised in Manchester NH.  I graduated
+                        from UNH twice- I received my Bachelor of Science in Medical Laboratory Science, and later
+                        went
+                        back for my MBA. I work in healthcare management and have a solid background in science. I
+                        am a
+                        member of the Henniker Rotary Club and also a volunteer with the Henniker Food Pantry.
+                        I have two sons that graduated from JSRHS and also UNH with degrees in Mechanical
+                        Engineering. Both of my sons are Officers in the US Space Force and I am incredibly proud of
+                        them!</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- *** Priorities *** -->
+    <section id="priorities" class="bg-blue-950">
+        <!-- Container for text and main photo -->
+        <div class="flex flex-col mx-auto md:flex-row gap-9">
+            <!-- Top Text -->
+            <div
+                class="bg-priorities-left md:bg-contain  bg-fixed flex flex-col py-12 md:space-y-2 items-center md:justify-center md:w-1/2">
+                <h1 class="font-display text-blue-950 text-6xl">Our Priorities</h1>
+                <h2 class="font-display text-blue-950 text-2xl">Click on the topic to learn more</h2>
+            </div>
+            <div
+                class="flex flex-col space-y-2 items-center text-2xl py-16 px-4 md:py-44 md:px-90 md:justify-around md:w-1/2 font-display text-white md:text-4xl">
+                <ul class="space-y-12">
+                    <li class="flex flex-row  gap-4"> <img src="/img/svg/f&msymbol.svg"
+                            alt="Male and Female Icon">Protect
+                        Reproductive Freedom</li>
+
+                    <li class="flex flex-row  gap-4"><i class="iconoir-home-alt text-4xl"></i>Prioritize
+                        Affordable Housing</li>
+                    <li class="flex flex-row  gap-4"><i class="iconoir-piggy-bank text-4xl"></i>Support Economic Growth
+                        in
+                        NH</li>
+                    <li class="flex flex-row  gap-4"><img src="/img/svg/childCare.svg" alt=""></i>Strengthen Childcare
+                        in NH
+                    </li>
+                    <li class="flex flex-row  gap-4"><i class="iconoir-graduation-cap text-4xl"></i>Protect Public
+                        Education
+                    </li>
+                    <li class="flex flex-row  gap-4"><i class="iconoir-leaf text-4xl"></i>Enact a Climate Action
+                        Plan</li>
+                    <li class="flex flex-row  gap-4"><i class="iconoir-arrow-down-circle text-4xl"></i>Stop Downshifting
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- *** Photo Gallery *** -->
+
+    <section id="photoGallery" class="bg-white p-12">
+        <div class="photoHeaderContainer pb-2">
+            <h1
+                class="font-display text-4xl tracking-widest font-medium text-blue-800 text-center md:text-7xl md:tracking-wide ">
+                Photo Gallery
+            </h1>
+            <h2 class="font-display text-2xl font-medium pb-6 text-blue-900 text-center md:text-4xl ">Click to see
+                the
+                full
+                image and description
+            </h2>
+        </div>
+        <div x-data="{
+          imageGalleryOpened: false,
+          imageGalleryActiveUrl: null,
+          imageGalleryImageIndex: null,
+          imageGalleryOpen(event) {
+              this.imageGalleryImageIndex = event.target.dataset.index;
+              this.imageGalleryActiveUrl = event.target.src;
+              this.imageGalleryAltText = event.target.alt;
+              this.imageGalleryOpened = true;
+          },
+          imageGalleryClose() {
+              this.imageGalleryOpened = false;
+              setTimeout(() => this.imageGalleryActiveUrl = null, 300);
+          },
+          imageGalleryNext(){
+              if(this.imageGalleryImageIndex == this.$refs.gallery.childElementCount){
+                  this.imageGalleryImageIndex = 1;
+              } else {
+                  this.imageGalleryImageIndex = parseInt(this.imageGalleryImageIndex) + 1;
+              }
+              this.imageGalleryActiveUrl = this.$refs.gallery.querySelector('[data-index=\'' + this.imageGalleryImageIndex + '\']').src;
+              this.imageGalleryAltText = this.$refs.gallery.querySelector('[data-index=\'' + this.imageGalleryImageIndex + '\']').alt;
+          },
+          imageGalleryPrev() {
+              if(this.imageGalleryImageIndex == 1){
+                  this.imageGalleryImageIndex = this.$refs.gallery.childElementCount;
+              } else {
+                  this.imageGalleryImageIndex = parseInt(this.imageGalleryImageIndex) - 1;
+              }
+  
+              this.imageGalleryActiveUrl = this.$refs.gallery.querySelector('[data-index=\'' + this.imageGalleryImageIndex + '\']').src;
+              this.imageGalleryAltText = this.$refs.gallery.querySelector('[data-index=\'' + this.imageGalleryImageIndex + '\']').alt;
+              
+          }
+      }" @image-gallery-next.window="imageGalleryNext()" @image-gallery-prev.window="imageGalleryPrev()"
+            @keyup.right.window="imageGalleryNext();" @keyup.left.window="imageGalleryPrev();" x-init="
+          imageGalleryPhotos = $refs.gallery.querySelectorAll('img');
+          for(let i=0; i<imageGalleryPhotos.length; i++){
+              imageGalleryPhotos[i].setAttribute('data-index', i+1);
+          }
+      " class="w-full h-full select-none">
+            <div class="xl:max-w-6xl lg:max-w-4xl md:max-w-2xl sm:max-w-xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view"
+                style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-4 lg:grid-cols-3">
+                    <li><img x-on:click="imageGalleryOpen" src="/img/photoGalleryImages/FilingHennikerMed.JPG"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Stephanie, Eileen, and Tony outside Henniker town offices holding their filing applications">
+                    </li>
+
+                    <li><img x-on:click="imageGalleryOpen"
+                            src="/img/photoGalleryImages/BradfordFilingPaying2bucksMed.JPG"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Eileen paying the $2 application fee for filing."></li>
+                    <li><img x-on:click="imageGalleryOpen"
+                            src="/img/photoGalleryImages/BradfordTownHallGroupShotMed.JPG"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Eileen and many of her friends celebrating outside Bradford Townhall after she filed to run.">
+                    </li>
+                    <li><img x-on:click="imageGalleryOpen"
+                            src="/img/photoGalleryImages/Stephanie_Noah_Owen Payeur_Small.jpg"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Stephanie and her two sons standing in front of the NH Stathouse. Her sons both proudly serve in the United States Space Force. ">
+                    </li>
+                    <li><img x-on:click="imageGalleryOpen" src="/img/photoGalleryImages/tonyFamily.jpg"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Tony with his family"></li>
+                    <li><img x-on:click="imageGalleryOpen" src="/img/photoGalleryImages/tonyCindeWarmington.jpg"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Tony shows his support for Cinde Warmington at a rally outside the Statehouse"></li>
+                    <li><img x-on:click="imageGalleryOpen" src="/img/photoGalleryImages/tonyRafter.jpg"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Tony with his friends Representative Hal Rafter and "></li>
+                    <li><img x-on:click="imageGalleryOpen" src="/img/photoGalleryImages/EileenWithWarrenMed.JPG"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Eileen meeting Senator Elizabeth Warren"></li>
+
+                    <li><img x-on:click="imageGalleryOpen" src="/img/photoGalleryImages/EileenWithBernie.JPG"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Eileen meeting Senator Bernie Sanders (With her friend Representative Renny Cushing in the background)">
+                    </li>
+                    <li><img x-on:click="imageGalleryOpen" src="/img/photoGalleryImages/EileenWithBidenMed.JPG"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Eileen and Beth Rodd listening to President Joe Biden"></li>
+
+                    <li><img x-on:click="imageGalleryOpen" src="/img/photoGalleryImages/BicentCommishMed.JPG"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Group photo outside the NH State House for members of the Bicentenial Commision. Eileen is sitting in the front row on the right end.">
+                    </li>
+
+                </ul>
+            </div>
+            <template x-teleport="body">
+                <div x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300"
+                    x-transition:enter-start="opacity-0" x-transition:leave="transition ease-in-in duration-300"
+                    x-transition:leave-end="opacity-0" @click="imageGalleryClose"
+                    @keydown.window.escape="imageGalleryClose" x-trap.inert.noscroll="imageGalleryOpened"
+                    class="fixed inset-0 z-[99] flex items-center justify-center bg-black bg-opacity-50 select-none cursor-zoom-out"
+                    x-cloak>
+                    <div class="relative flex items-center justify-center xs:w-2/3 w-11/12 xl:w-1/2">
+                        <div @click="$event.stopPropagation(); $dispatch('image-gallery-prev')"
+                            class="z-50 absolute left-0 flex items-center justify-center text-white translate-x-10 rounded-full cursor-pointer xl:-translate-x-24 2xl:-translate-x-32 bg-white/10 w-14 h-14 hover:bg-white/20">
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                            </svg>
+                        </div>
+                        <div class="relative">
+                            <img x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300"
+                                x-transition:enter-start="opacity-0 transform scale-50"
+                                x-transition:leave="transition ease-in-in duration-300"
+                                x-transition:leave-end="opacity-0 transform scale-50"
+                                class="object-contain object-center w-full h-full select-none cursor-zoom-out"
+                                :src="imageGalleryActiveUrl" :alt="imageGalleryAltText" style="display: none;">
+                            <span
+                                class="absolute bottom-1 bg-zinc-800 rounded-md opacity-90 object-contain object-center w-fit px-4 py-1 text-sm text-white md:text-lg xs:text-xs"
+                                x-text="imageGalleryAltText"></span>
+                        </div>
+
+                        <div @click="$event.stopPropagation(); $dispatch('image-gallery-next');"
+                            class="absolute right-0 flex items-center justify-center text-white -translate-x-10 rounded-full cursor-pointer xl:translate-x-24 2xl:translate-x-32 bg-white/10 w-14 h-14 hover:bg-white/20">
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </template>
+        </div>
+
+    </section>
+
+    <!-- *** MailChimp Signup *** -->
+    <!-- <section id="signup" class="flex flex-col justify-center mx-auto py-12">
+        <div id="mc_embed_shell" class="flex mx-auto justify-center>
+
+            <div id=" mc_embed_signup">
+            <form
+                action="https://gmail.us22.list-manage.com/subscribe/post?u=de471ab470dabe4c0491c8f2c&amp;id=4ddb7e3538&amp;f_id=00aacce1f0"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_self" novalidate="">
+                <div id="mc_embed_signup_scroll" class="flex flex-col gap-4 font-sans text-xl px-2">
+                    <h2 class="font-display text-4xl">Sign up for Campaign Updates!</h2>
+                    <div class="indicates-required text-end"><span class="asterisk text-red-600">*</span>
+                        indicates
+                        required
+                    </div>
+                    <div class="mc-field-group "><label for="mce-EMAIL">Email
+                            Address
+                            <span class="asterisk text-red-600">*</span></label><input type="email" name="EMAIL"
+                            class="required email rounded-lg flex-1 px-6 pt-3 pb-2 mb-4 border-1 border-blue-700 focus:outline-8 outline-blue-400 focus:bg-green-100"
+                            id="mce-EMAIL" required="" value="" placeholder="Enter your email address"></div>
+                    <div class="mc-field-group"><label for="mce-FNAME">First Name </label><input type="text"
+                            name="FNAME"
+                            class=" text rounded-lg flex-1 px-6 pt-3 pb-2 mb-4 border-1 border-blue-700 focus:outline-8 outline-blue-400 focus:bg-green-100"
+                            id="mce-FNAME" value=""></div>
+                    <div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" name="LNAME"
+                            class=" text rounded-lg flex-1 px-6 pt-3 pb-2 mb-4 border-1 border-blue-700 focus:outline-8 outline-blue-400 focus:bg-green-100"
+                            id="mce-LNAME" value=""></div>
+                    <div class="mc-address-group">
+                        <div class="mc-field-group"><label for="mce-ADDRESS-addr1">Address </label><input type="text "
+                                maxlength="70" name="ADDRESS[addr1]" id="mce-ADDRESS-addr1"
+                                class="rounded-lg flex-1 px-6 pt-3 pb-2 mb-4 border-1 border-blue-700 focus:outline-8 outline-blue-400 focus:bg-green-100"
+                                value=""></div>
+                        <div class="mc-field-group"><label for="mce-ADDRESS-addr2">Address Line 2</label><input
+                                type="text" maxlength="70" name="ADDRESS[addr2]" id="mce-ADDRESS-addr2" value=""
+                                class="rounded-lg flex-1 px-6 pt-3 pb-2 mb-4 border-1 border-blue-700 focus:outline-8 outline-blue-400 focus:bg-green-100">
+                        </div>
+                        <div class="mc-address-fields-group">
+                            <div class="mc-field-group"><label for="mce-ADDRESS-city">City</label><input type="text"
+                                    maxlength="40" name="ADDRESS[city]" id="mce-ADDRESS-city"
+                                    class="rounded-lg flex-1 px-6 pt-3 pb-2 mb-4 border-1 border-blue-700 focus:outline-8 outline-blue-400 focus:bg-green-100"
+                                    value="">
+                            </div>
+                            <div class="mc-field-group"><label
+                                    for="mce-ADDRESS-state">State/Province/Region</label><input type="text"
+                                    maxlength="20" name="ADDRESS[state]" id="mce-ADDRESS-state"
+                                    class="rounded-lg flex-1 px-6 pt-3 pb-2 mb-4 border-1 border-blue-700 focus:outline-8 outline-blue-400 focus:bg-green-100"
+                                    value="">
+                            </div>
+                            <div class="mc-field-group"><label for="mce-ADDRESS-zip">Postal / Zip Code</label><input
+                                    type="text" maxlength="10" name="ADDRESS[zip]" id="mce-ADDRESS-zip"
+                                    class="rounded-lg flex-1 px-6 pt-3 pb-2 mb-4 border-1 border-blue-700 focus:outline-8 outline-blue-400 focus:bg-green-100"
+                                    value=""></div>
+                        </div>
+                        <div class="mc-field-group"><label for="mce-ADDRESS-country">Country</label><select
+                                name="ADDRESS[country]" id="mce-ADDRESS-country"
+                                class="rounded-lg flex-1 px-6 pt-3 pb-2 mb-4 border-1 border-blue-700 focus:outline-8 outline-blue-400 focus:bg-green-100">
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Angola">Angola</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Armenia">Armenia</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Austria">Austria</option>
+                                <option value="Azerbaijan">Azerbaijan</option>
+                                <option value="Bahamas">Bahamas</option>
+                                <option value="Bahrain">Bahrain</option>
+                                <option value="Bangladesh">Bangladesh</option>
+                                <option value="Barbados">Barbados</option>
+                                <option value="Belarus">Belarus</option>
+                                <option value="Belgium">Belgium</option>
+                                <option value="Belize">Belize</option>
+                                <option value="Benin">Benin</option>
+                                <option value="Bermuda">Bermuda</option>
+                                <option value="Bhutan">Bhutan</option>
+                                <option value="Bolivia">Bolivia</option>
+                                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                <option value="Botswana">Botswana</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Bulgaria">Bulgaria</option>
+                                <option value="Burkina Faso">Burkina Faso</option>
+                                <option value="Burundi">Burundi</option>
+                                <option value="Cambodia">Cambodia</option>
+                                <option value="Cameroon">Cameroon</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Cape Verde">Cape Verde</option>
+                                <option value="Cayman Islands">Cayman Islands</option>
+                                <option value="Central African Republic">Central African Republic</option>
+                                <option value="Chad">Chad</option>
+                                <option value="Chile">Chile</option>
+                                <option value="China">China</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Congo">Congo</option>
+                                <option value="Croatia">Croatia</option>
+                                <option value="Cyprus">Cyprus</option>
+                                <option value="Czech Republic">Czech Republic</option>
+                                <option value="Denmark">Denmark</option>
+                                <option value="Djibouti">Djibouti</option>
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="El Salvador">El Salvador</option>
+                                <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                <option value="Eritrea">Eritrea</option>
+                                <option value="Estonia">Estonia</option>
+                                <option value="Ethiopia">Ethiopia</option>
+                                <option value="Fiji">Fiji</option>
+                                <option value="Finland">Finland</option>
+                                <option value="France">France</option>
+                                <option value="Gabon">Gabon</option>
+                                <option value="Gambia">Gambia</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Greece">Greece</option>
+                                <option value="Guam">Guam</option>
+                                <option value="Guinea">Guinea</option>
+                                <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                <option value="Guyana">Guyana</option>
+                                <option value="Honduras">Honduras</option>
+                                <option value="Hong Kong">Hong Kong</option>
+                                <option value="Hungary">Hungary</option>
+                                <option value="Iceland">Iceland</option>
+                                <option value="India">India</option>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Ireland">Ireland</option>
+                                <option value="Israel">Israel</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Jordan">Jordan</option>
+                                <option value="Kazakhstan">Kazakhstan</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="Kuwait">Kuwait</option>
+                                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                <option value="Lao People's Democratic Republic">Lao People's Democratic Republic
+                                </option>
+                                <option value="Latvia">Latvia</option>
+                                <option value="Lebanon">Lebanon</option>
+                                <option value="Lesotho">Lesotho</option>
+                                <option value="Liberia">Liberia</option>
+                                <option value="Liechtenstein">Liechtenstein</option>
+                                <option value="Lithuania">Lithuania</option>
+                                <option value="Luxembourg">Luxembourg</option>
+                                <option value="Macedonia">Macedonia</option>
+                                <option value="Madagascar">Madagascar</option>
+                                <option value="Malawi">Malawi</option>
+                                <option value="Malaysia">Malaysia</option>
+                                <option value="Maldives">Maldives</option>
+                                <option value="Mali">Mali</option>
+                                <option value="Malta">Malta</option>
+                                <option value="Mauritania">Mauritania</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Moldova, Republic of">Moldova, Republic of</option>
+                                <option value="Monaco">Monaco</option>
+                                <option value="Mongolia">Mongolia</option>
+                                <option value="Morocco">Morocco</option>
+                                <option value="Mozambique">Mozambique</option>
+                                <option value="Namibia">Namibia</option>
+                                <option value="Nepal">Nepal</option>
+                                <option value="Netherlands">Netherlands</option>
+                                <option value="Netherlands Antilles">Netherlands Antilles</option>
+                                <option value="New Zealand">New Zealand</option>
+                                <option value="Nicaragua">Nicaragua</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Norway">Norway</option>
+                                <option value="Oman">Oman</option>
+                                <option value="Pakistan">Pakistan</option>
+                                <option value="Panama">Panama</option>
+                                <option value="Paraguay">Paraguay</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Philippines">Philippines</option>
+                                <option value="Poland">Poland</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="Qatar">Qatar</option>
+                                <option value="Reunion">Reunion</option>
+                                <option value="Romania">Romania</option>
+                                <option value="Russia">Russia</option>
+                                <option value="Rwanda">Rwanda</option>
+                                <option value="Samoa (Independent)">Samoa (Independent)</option>
+                                <option value="Saudi Arabia">Saudi Arabia</option>
+                                <option value="Senegal">Senegal</option>
+                                <option value="Seychelles">Seychelles</option>
+                                <option value="Sierra Leone">Sierra Leone</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Slovakia">Slovakia</option>
+                                <option value="Slovenia">Slovenia</option>
+                                <option value="Somalia">Somalia</option>
+                                <option value="South Africa">South Africa</option>
+                                <option value="South Korea">South Korea</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Sri Lanka">Sri Lanka</option>
+                                <option value="Suriname">Suriname</option>
+                                <option value="Swaziland">Swaziland</option>
+                                <option value="Sweden">Sweden</option>
+                                <option value="Switzerland">Switzerland</option>
+                                <option value="Taiwan">Taiwan</option>
+                                <option value="Tanzania">Tanzania</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Togo">Togo</option>
+                                <option value="Tunisia">Tunisia</option>
+                                <option value="Turkiye">Turkiye</option>
+                                <option value="Turkmenistan">Turkmenistan</option>
+                                <option value="Uganda">Uganda</option>
+                                <option value="Ukraine">Ukraine</option>
+                                <option value="United Arab Emirates">United Arab Emirates</option>
+                                <option value="Uruguay">Uruguay</option>
+                                <option value="USA" selected="">USA</option>
+                                <option value="Uzbekistan">Uzbekistan</option>
+                                <option value="Vatican City State (Holy See)">Vatican City State (Holy See)</option>
+                                <option value="Venezuela">Venezuela</option>
+                                <option value="Vietnam">Vietnam</option>
+                                <option value="Virgin Islands (British)">Virgin Islands (British)</option>
+                                <option value="Yemen">Yemen</option>
+                                <option value="Zambia">Zambia</option>
+                                <option value="Zimbabwe">Zimbabwe</option>
+                                <option value="Antigua And Barbuda">Antigua And Barbuda</option>
+                                <option value="Anguilla">Anguilla</option>
+                                <option value="American Samoa">American Samoa</option>
+                                <option value="Aruba">Aruba</option>
+                                <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                <option value="Bouvet Island">Bouvet Island</option>
+                                <option value="Cook Islands">Cook Islands</option>
+                                <option value="Christmas Island">Christmas Island</option>
+                                <option value="Dominican Republic">Dominican Republic</option>
+                                <option value="Western Sahara">Western Sahara</option>
+                                <option value="Falkland Islands">Falkland Islands</option>
+                                <option value="Faroe Islands">Faroe Islands</option>
+                                <option value="Grenada">Grenada</option>
+                                <option value="French Guiana">French Guiana</option>
+                                <option value="Gibraltar">Gibraltar</option>
+                                <option value="Greenland">Greenland</option>
+                                <option value="Guadeloupe">Guadeloupe</option>
+                                <option value="Guatemala">Guatemala</option>
+                                <option value="Haiti">Haiti</option>
+                                <option value="Jamaica">Jamaica</option>
+                                <option value="Kiribati">Kiribati</option>
+                                <option value="Comoros">Comoros</option>
+                                <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                <option value="Saint Lucia">Saint Lucia</option>
+                                <option value="Marshall Islands">Marshall Islands</option>
+                                <option value="Macau">Macau</option>
+                                <option value="Martinique">Martinique</option>
+                                <option value="Mauritius">Mauritius</option>
+                                <option value="New Caledonia">New Caledonia</option>
+                                <option value="Norfolk Island">Norfolk Island</option>
+                                <option value="Nauru">Nauru</option>
+                                <option value="Niue">Niue</option>
+                                <option value="Papua New Guinea">Papua New Guinea</option>
+                                <option value="Pitcairn">Pitcairn</option>
+                                <option value="Palau">Palau</option>
+                                <option value="Solomon Islands">Solomon Islands</option>
+                                <option value="Svalbard and Jan Mayen Islands">Svalbard and Jan Mayen Islands
+                                </option>
+                                <option value="San Marino">San Marino</option>
+                                <option value="Tonga">Tonga</option>
+                                <option value="Timor-Leste">Timor-Leste</option>
+                                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                <option value="Tuvalu">Tuvalu</option>
+                                <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines
+                                </option>
+                                <option value="Virgin Islands (U.S.)">Virgin Islands (U.S.)</option>
+                                <option value="Vanuatu">Vanuatu</option>
+                                <option value="Mayotte">Mayotte</option>
+                                <option value="Myanmar">Myanmar</option>
+                                <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                <option value="South Georgia and the South Sandwich Islands">South Georgia and the
+                                    South Sandwich Islands</option>
+                                <option value="Tajikistan">Tajikistan</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="Costa Rica">Costa Rica</option>
+                                <option value="Guernsey">Guernsey</option>
+                                <option value="North Korea">North Korea</option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Cote D'Ivoire">Cote D'Ivoire</option>
+                                <option value="Cuba">Cuba</option>
+                                <option value="French Polynesia">French Polynesia</option>
+                                <option value="Iran">Iran</option>
+                                <option value="Iraq">Iraq</option>
+                                <option value="Libya">Libya</option>
+                                <option value="Palestine">Palestine</option>
+                                <option value="Syria">Syria</option>
+                                <option value="Aaland Islands">Aaland Islands</option>
+                                <option value="Turks &amp; Caicos Islands">Turks &amp; Caicos Islands</option>
+                                <option value="Jersey  (Channel Islands)">Jersey (Channel Islands)</option>
+                                <option value="Dominica">Dominica</option>
+                                <option value="Montenegro">Montenegro</option>
+                                <option value="Sudan">Sudan</option>
+                                <option value="Montserrat">Montserrat</option>
+                                <option value="Curacao">Curacao</option>
+                                <option value="Sint Maarten">Sint Maarten</option>
+                                <option value="South Sudan">South Sudan</option>
+                                <option value="Republic of Kosovo">Republic of Kosovo</option>
+                                <option value="Congo, Democratic Republic of the">Congo, Democratic Republic of the
+                                </option>
+                                <option value="Isle of Man">Isle of Man</option>
+                                <option value="Saint Martin">Saint Martin</option>
+                                <option value="Bonaire, Saint Eustatius and Saba">Bonaire, Saint Eustatius and Saba
+                                </option>
+                                <option value="Serbia">Serbia</option>
+                            </select></div>
+                    </div>
+                    <div class="mc-field-group"><label for="mce-PHONE">Phone Number </label><input type="text"
+                            name="PHONE"
+                            class="REQ_CSS rounded-lg flex-1 px-6 pt-3 pb-2 mb-4 border-1 border-blue-700 focus:outline-8 outline-blue-400 focus:bg-green-100"
+                            id="mce-PHONE" value=""></div>
+                    <div id="mce-responses" class="clear foot">
+                        <div class="response" id="mce-error-response" style="display: none;"></div>
+                        <div class="response" id="mce-success-response" style="display: none;"></div>
+                    </div>
+                    <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                        /* real people should not fill this in and expect good things - do not remove this or risk
+                        form bot signups */
+                        <input type="text" name="b_de471ab470dabe4c0491c8f2c_4ddb7e3538" tabindex="-1" value="">
+                    </div>
+                    <div class="optionalParent">
+                        <div class="clear foot flex flex-row justify-between">
+                            <input type="submit" name="subscribe" id="mc-embedded-subscribe"
+                                class="button cursor-pointer px-5 py-2 text-xl text-white bg-blue-600 border-2 border-blue-600 rounded-lg shadow-sm shadow-blue-900 hover:text-red hover:bg-blue-800 hover:border-blue-800 active:border-blue-950  hover:shadow-blue-950 active:bg-blue-950 active:shadow-none transition duration-100 ease-out hover:ease-in"
+                                value="Subscribe">
+                            <p style="margin: 0px auto;"><a href="http://eepurl.com/iS6Xhw"
+                                    title="Mailchimp - email marketing made easy and fun"><span
+                                        style="display: inline-block; background-color: transparent; border-radius: 4px;"><img
+                                            class="refferal_badge"
+                                            src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
+                                            alt="Intuit Mailchimp"
+                                            style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section> -->
+
+    <!-- ** Mailchimp with css -->
+    <section id="signup">
+        <div id="mc_embed_shell">
+
+            <style type="text/css">
+                #mc_embed_signup {
+
+                    max-width: 600px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin: auto;
+                }
+
+                #mc_embed_signup_scroll h2 {
+                    font-size:
+                        2.5rem;
+                    text-align: center;
+
+                }
+
+                #mc_embed_signup input.button {
+
+                    border-color: #2563EB;
+
+                    color: #ffffff;
+                    background-color: #2563EB;
+                    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+                    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                    transition-duration: 300ms;
+                    transition-duration: 100ms;
+                    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+                    cursor: pointer;
+                    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+                }
+
+                #mc_embed_signup input.button:hover {
+                    border-color: #1E40AF;
+                    background-color: #1E40AF;
+                    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+                }
+
+                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+                <form
+                    action="https://gmail.us22.list-manage.com/subscribe/post?u=de471ab470dabe4c0491c8f2c&amp;id=4ddb7e3538&amp;f_id=00aacce1f0"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                    target="_self" novalidate="">
+                    <div id="mc_embed_signup_scroll">
+                        <h2 class="font-display text-blue-900" style="font-weight: normal;">Sign up for Campaign
+                            Updates!
+                        </h2>
+                        <div class="indicates-required"><span class="asterisk">*</span>indicates required</div>
+                        <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span
+                                    class="asterisk">*</span></label><input type="email" name="EMAIL"
+                                class="required email " id="mce-EMAIL" required="" value=""></div>
+                        <div class="mc-field-group"><label for="mce-FNAME">First Name </label><input type="text"
+                                name="FNAME" class=" text" id="mce-FNAME" value=""></div>
+                        <div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text"
+                                name="LNAME" class=" text" id="mce-LNAME" value=""></div>
+                        <div class="mc-address-group">
+                            <div class="mc-field-group"><label for="mce-ADDRESS-addr1">Address </label><input
+                                    type="text" maxlength="70" name="ADDRESS[addr1]" id="mce-ADDRESS-addr1" class=""
+                                    value=""></div>
+                            <div class="mc-field-group"><label for="mce-ADDRESS-addr2">Address Line 2</label><input
+                                    type="text" maxlength="70" name="ADDRESS[addr2]" id="mce-ADDRESS-addr2" value="">
+                            </div>
+                            <div class="mc-address-fields-group">
+                                <div class="mc-field-group"><label for="mce-ADDRESS-city">City</label><input type="text"
+                                        maxlength="40" name="ADDRESS[city]" id="mce-ADDRESS-city" class="" value="">
+                                </div>
+                                <div class="mc-field-group"><label
+                                        for="mce-ADDRESS-state">State/Province/Region</label><input type="text"
+                                        maxlength="20" name="ADDRESS[state]" id="mce-ADDRESS-state" class="" value="">
+                                </div>
+                                <div class="mc-field-group"><label for="mce-ADDRESS-zip">Postal / Zip Code</label><input
+                                        type="text" maxlength="10" name="ADDRESS[zip]" id="mce-ADDRESS-zip" class=""
+                                        value=""></div>
+                            </div>
+                            <div class="mc-field-group"><label for="mce-ADDRESS-country">Country</label><select
+                                    name="ADDRESS[country]" id="mce-ADDRESS-country" class="">
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Armenia">Armenia</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Azerbaijan">Azerbaijan</option>
+                                    <option value="Bahamas">Bahamas</option>
+                                    <option value="Bahrain">Bahrain</option>
+                                    <option value="Bangladesh">Bangladesh</option>
+                                    <option value="Barbados">Barbados</option>
+                                    <option value="Belarus">Belarus</option>
+                                    <option value="Belgium">Belgium</option>
+                                    <option value="Belize">Belize</option>
+                                    <option value="Benin">Benin</option>
+                                    <option value="Bermuda">Bermuda</option>
+                                    <option value="Bhutan">Bhutan</option>
+                                    <option value="Bolivia">Bolivia</option>
+                                    <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                    <option value="Botswana">Botswana</option>
+                                    <option value="Brazil">Brazil</option>
+                                    <option value="Bulgaria">Bulgaria</option>
+                                    <option value="Burkina Faso">Burkina Faso</option>
+                                    <option value="Burundi">Burundi</option>
+                                    <option value="Cambodia">Cambodia</option>
+                                    <option value="Cameroon">Cameroon</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Cape Verde">Cape Verde</option>
+                                    <option value="Cayman Islands">Cayman Islands</option>
+                                    <option value="Central African Republic">Central African Republic</option>
+                                    <option value="Chad">Chad</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="China">China</option>
+                                    <option value="Colombia">Colombia</option>
+                                    <option value="Congo">Congo</option>
+                                    <option value="Croatia">Croatia</option>
+                                    <option value="Cyprus">Cyprus</option>
+                                    <option value="Czech Republic">Czech Republic</option>
+                                    <option value="Denmark">Denmark</option>
+                                    <option value="Djibouti">Djibouti</option>
+                                    <option value="Ecuador">Ecuador</option>
+                                    <option value="Egypt">Egypt</option>
+                                    <option value="El Salvador">El Salvador</option>
+                                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                    <option value="Eritrea">Eritrea</option>
+                                    <option value="Estonia">Estonia</option>
+                                    <option value="Ethiopia">Ethiopia</option>
+                                    <option value="Fiji">Fiji</option>
+                                    <option value="Finland">Finland</option>
+                                    <option value="France">France</option>
+                                    <option value="Gabon">Gabon</option>
+                                    <option value="Gambia">Gambia</option>
+                                    <option value="Georgia">Georgia</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="Ghana">Ghana</option>
+                                    <option value="Greece">Greece</option>
+                                    <option value="Guam">Guam</option>
+                                    <option value="Guinea">Guinea</option>
+                                    <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                    <option value="Guyana">Guyana</option>
+                                    <option value="Honduras">Honduras</option>
+                                    <option value="Hong Kong">Hong Kong</option>
+                                    <option value="Hungary">Hungary</option>
+                                    <option value="Iceland">Iceland</option>
+                                    <option value="India">India</option>
+                                    <option value="Indonesia">Indonesia</option>
+                                    <option value="Ireland">Ireland</option>
+                                    <option value="Israel">Israel</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="Jordan">Jordan</option>
+                                    <option value="Kazakhstan">Kazakhstan</option>
+                                    <option value="Kenya">Kenya</option>
+                                    <option value="Kuwait">Kuwait</option>
+                                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                    <option value="Lao People's Democratic Republic">Lao People's Democratic Republic
+                                    </option>
+                                    <option value="Latvia">Latvia</option>
+                                    <option value="Lebanon">Lebanon</option>
+                                    <option value="Lesotho">Lesotho</option>
+                                    <option value="Liberia">Liberia</option>
+                                    <option value="Liechtenstein">Liechtenstein</option>
+                                    <option value="Lithuania">Lithuania</option>
+                                    <option value="Luxembourg">Luxembourg</option>
+                                    <option value="Macedonia">Macedonia</option>
+                                    <option value="Madagascar">Madagascar</option>
+                                    <option value="Malawi">Malawi</option>
+                                    <option value="Malaysia">Malaysia</option>
+                                    <option value="Maldives">Maldives</option>
+                                    <option value="Mali">Mali</option>
+                                    <option value="Malta">Malta</option>
+                                    <option value="Mauritania">Mauritania</option>
+                                    <option value="Mexico">Mexico</option>
+                                    <option value="Moldova, Republic of">Moldova,
+                                        Republic of</option>
+                                    <option value="Monaco">Monaco</option>
+                                    <option value="Mongolia">Mongolia</option>
+                                    <option value="Morocco">Morocco</option>
+                                    <option value="Mozambique">Mozambique</option>
+                                    <option value="Namibia">Namibia</option>
+                                    <option value="Nepal">Nepal</option>
+                                    <option value="Netherlands">Netherlands</option>
+                                    <option value="Netherlands Antilles">Netherlands Antilles</option>
+                                    <option value="New Zealand">New Zealand</option>
+                                    <option value="Nicaragua">Nicaragua</option>
+                                    <option value="Niger">Niger</option>
+                                    <option value="Nigeria">Nigeria</option>
+                                    <option value="Norway">Norway</option>
+                                    <option value="Oman">Oman</option>
+                                    <option value="Pakistan">Pakistan</option>
+                                    <option value="Panama">Panama</option>
+                                    <option value="Paraguay">Paraguay</option>
+                                    <option value="Peru">Peru</option>
+                                    <option value="Philippines">Philippines</option>
+                                    <option value="Poland">Poland</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Qatar">Qatar</option>
+                                    <option value="Reunion">Reunion</option>
+                                    <option value="Romania">Romania</option>
+                                    <option value="Russia">Russia</option>
+                                    <option value="Rwanda">Rwanda</option>
+                                    <option value="Samoa (Independent)">Samoa (Independent)</option>
+                                    <option value="Saudi Arabia">Saudi Arabia</option>
+                                    <option value="Senegal">Senegal</option>
+                                    <option value="Seychelles">Seychelles</option>
+                                    <option value="Sierra Leone">Sierra Leone</option>
+                                    <option value="Singapore">Singapore</option>
+                                    <option value="Slovakia">Slovakia</option>
+                                    <option value="Slovenia">Slovenia</option>
+                                    <option value="Somalia">Somalia</option>
+                                    <option value="South Africa">South Africa</option>
+                                    <option value="South Korea">South Korea</option>
+                                    <option value="Spain">Spain</option>
+                                    <option value="Sri Lanka">Sri Lanka</option>
+                                    <option value="Suriname">Suriname</option>
+                                    <option value="Swaziland">Swaziland</option>
+                                    <option value="Sweden">Sweden</option>
+                                    <option value="Switzerland">Switzerland</option>
+                                    <option value="Taiwan">Taiwan</option>
+                                    <option value="Tanzania">Tanzania</option>
+                                    <option value="Thailand">Thailand</option>
+                                    <option value="Togo">Togo</option>
+                                    <option value="Tunisia">Tunisia</option>
+                                    <option value="Turkiye">Turkiye</option>
+                                    <option value="Turkmenistan">Turkmenistan</option>
+                                    <option value="Uganda">Uganda</option>
+                                    <option value="Ukraine">Ukraine</option>
+                                    <option value="United Arab Emirates">United Arab Emirates</option>
+                                    <option value="Uruguay">Uruguay</option>
+                                    <option value="USA" selected="">USA</option>
+                                    <option value="Uzbekistan">Uzbekistan</option>
+                                    <option value="Vatican City State (Holy See)">Vatican City State (Holy See)</option>
+                                    <option value="Venezuela">Venezuela</option>
+                                    <option value="Vietnam">Vietnam</option>
+                                    <option value="Virgin Islands (British)">Virgin Islands (British)</option>
+                                    <option value="Yemen">Yemen</option>
+                                    <option value="Zambia">Zambia</option>
+                                    <option value="Zimbabwe">Zimbabwe</option>
+                                    <option value="Antigua And Barbuda">Antigua And Barbuda</option>
+                                    <option value="Anguilla">Anguilla</option>
+                                    <option value="American Samoa">American Samoa</option>
+                                    <option value="Aruba">Aruba</option>
+                                    <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                    <option value="Bouvet Island">Bouvet Island</option>
+                                    <option value="Cook Islands">Cook Islands</option>
+                                    <option value="Christmas Island">Christmas Island</option>
+                                    <option value="Dominican Republic">Dominican Republic</option>
+                                    <option value="Western Sahara">Western Sahara</option>
+                                    <option value="Falkland Islands">Falkland Islands</option>
+                                    <option value="Faroe Islands">Faroe Islands</option>
+                                    <option value="Grenada">Grenada</option>
+                                    <option value="French Guiana">French Guiana</option>
+                                    <option value="Gibraltar">Gibraltar</option>
+                                    <option value="Greenland">Greenland</option>
+                                    <option value="Guadeloupe">Guadeloupe</option>
+                                    <option value="Guatemala">Guatemala</option>
+                                    <option value="Haiti">Haiti</option>
+                                    <option value="Jamaica">Jamaica</option>
+                                    <option value="Kiribati">Kiribati</option>
+                                    <option value="Comoros">Comoros</option>
+                                    <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                    <option value="Saint Lucia">Saint Lucia</option>
+                                    <option value="Marshall Islands">Marshall Islands</option>
+                                    <option value="Macau">Macau</option>
+                                    <option value="Martinique">Martinique</option>
+                                    <option value="Mauritius">Mauritius</option>
+                                    <option value="New Caledonia">New Caledonia</option>
+                                    <option value="Norfolk Island">Norfolk Island</option>
+                                    <option value="Nauru">Nauru</option>
+                                    <option value="Niue">Niue</option>
+                                    <option value="Papua New Guinea">Papua New Guinea</option>
+                                    <option value="Pitcairn">Pitcairn</option>
+                                    <option value="Palau">Palau</option>
+                                    <option value="Solomon Islands">Solomon Islands</option>
+                                    <option value="Svalbard and Jan Mayen Islands">Svalbard and Jan Mayen Islands
+                                    </option>
+                                    <option value="San Marino">San Marino</option>
+                                    <option value="Tonga">Tonga</option>
+                                    <option value="Timor-Leste">Timor-Leste</option>
+                                    <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                    <option value="Tuvalu">Tuvalu</option>
+                                    <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines
+                                    </option>
+                                    <option value="Virgin Islands (U.S.)">Virgin Islands (U.S.)</option>
+                                    <option value="Vanuatu">Vanuatu</option>
+                                    <option value="Mayotte">Mayotte</option>
+                                    <option value="Myanmar">Myanmar</option>
+                                    <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                    <option value="South Georgia and the South Sandwich Islands">South Georgia and the
+                                        South
+                                        Sandwich Islands</option>
+                                    <option value="Tajikistan">Tajikistan</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Costa Rica">Costa Rica</option>
+                                    <option value="Guernsey">Guernsey</option>
+                                    <option value="North Korea">North Korea</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                    <option value="Cote D'Ivoire">Cote D'Ivoire</option>
+                                    <option value="Cuba">Cuba</option>
+                                    <option value="French Polynesia">French Polynesia</option>
+                                    <option value="Iran">Iran</option>
+                                    <option value="Iraq">Iraq</option>
+                                    <option value="Libya">Libya</option>
+                                    <option value="Palestine">Palestine</option>
+                                    <option value="Syria">Syria</option>
+                                    <option value="Aaland Islands">Aaland Islands</option>
+                                    <option value="Turks &amp; Caicos Islands">Turks &amp;
+                                        Caicos Islands</option>
+                                    <option value="Jersey  (Channel Islands)">Jersey (Channel Islands)</option>
+                                    <option value="Dominica">Dominica</option>
+                                    <option value="Montenegro">Montenegro</option>
+                                    <option value="Sudan">Sudan</option>
+                                    <option value="Montserrat">Montserrat</option>
+                                    <option value="Curacao">Curacao</option>
+                                    <option value="Sint Maarten">Sint Maarten</option>
+                                    <option value="South Sudan">South Sudan</option>
+                                    <option value="Republic of Kosovo">Republic of Kosovo</option>
+                                    <option value="Congo, Democratic Republic of the">Congo,
+                                        Democratic Republic of the </option>
+                                    <option value="Isle of Man">Isle of Man</option>
+                                    <option value="Saint Martin">Saint Martin</option>
+                                    <option value="Bonaire, Saint Eustatius and Saba">Bonaire,
+                                        Saint Eustatius and Saba </option>
+                                    <option value="Serbia">Serbia</option>
+                                </select></div>
+                        </div>
+                        <div class="mc-field-group"><label for="mce-PHONE">Phone Number </label><input type="text"
+                                name="PHONE" class="REQ_CSS" id="mce-PHONE" value=""></div>
+                        <div id="mce-responses" class="clear foot">
+                            <div class="response" id="mce-error-response" style="display: none;"></div>
+                            <div class="response" id="mce-success-response" style="display: none;"></div>
+                        </div>
+                        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                            /* real people should not fill this in and expect good things - do not remove this or risk
+                            form
+                            bot signups */
+                            <input type="text" name="b_de471ab470dabe4c0491c8f2c_4ddb7e3538" tabindex="-1" value="">
+                        </div>
+                        <div class="optionalParent">
+                            <div class="clear foot"><input type="submit" name="subscribe" id="mc-embedded-subscribe"
+                                    class="button" value="Subscribe">
+                                <p style="margin: 0px auto;"><a href="http://eepurl.com/iS6Xhw"
+                                        title="Mailchimp - email marketing made easy and fun"><span
+                                            style="display: inline-block; background-color: transparent; border-radius: 4px;"><img
+                                                class="refferal_badge"
+                                                src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
+                                                alt="Intuit Mailchimp"
+                                                style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="flex flex-col justify-center py-6 m-auto  bg-gradient-to-b from-blue-400 to-blue-600 ">
+        <div class="flex flex-row justify-center align-middle">
+            <img src="/img/logo/MinkHillDemsLogoMulticolor.png" alt="Mink Hill Democrats logo"
+                class="w-[200px] md:w-[250px] self-center p-6">
+            <a href="https://secure.actblue.com/donate/minkhillsdems"
+                class="w-28 h-12 px-5 py-2 self-center text-xl font-display text-white bg-red-600 border-2 border-red-600 rounded-lg shadow-sm shadow-red-900 hover:text-red hover:bg-red-800 hover:border-red-800 active:border-red-950  hover:shadow-red-950 active:bg-red-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Donate</a>
+        </div>
+        <div class="flex flex-row justify-center align-middle m-auto w-96 bg-blue-950 border border-blue-400">
+            <p
+                class=" text-white text-center justify-center p-6 align-middle font-extrabold font-sans leading-normal tracking-wide">
+                Paid For By Friends of Eileen Kelly</p>
+        </div>
+    </footer>
+</body>
+
+</html>

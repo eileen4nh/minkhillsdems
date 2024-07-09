@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="/js/script.js" defer></script>
+    <title>Mink Hills Democrats</title>
+</head>
+
+<body class="overflow-x-hidden bg-blue-100">
+
+    <!-- *** NAVIGATION BAR *** -->
+    <nav id="navbar" class="sticky top-0 z-50 m-auto bg-blue-200 py-4 font-display origin-top"
+        style="transition: 0.3s;">
+        <!-- Flex Container for Nav Items -->
+        <div class="flex items-center justify-between px-12 md:px-1 md:justify-center gap-10 lg-gap-5">
+            <!-- Logo -->
+            <div class="z-30">
+                <a href="#hero"><img src="/img/logo/MinkHillsDemsLogo.png" alt="" id="logo" class="w-24 "></a>
+            </div>
+            <!-- Center Main Menu Items -->
+            <div class="hidden lg:w-2/5 md:flex flex-row justify-center space-x-4 lg:space-x-6 text-blue-950 ">
+                <a href="#candidates" class="hover:text-blue-600 text-xl lg:text-2xl text-nowrap">The Candidates</a>
+                <a href="#priorities" class="hover:text-blue-600 text-xl lg:text-2xl">Priorities</a>
+                <a href="#photoGallery" class=" hover:text-blue-600 text-xl lg:text-2xl text-nowrap">Photo Gallery</a>
+            </div>
+            <!-- Right CTA Buttons-->
+            <div class="hidden md:flex flex-row space-x-4">
+                <a href="#signup"
+                    class="px-5 py-2 text-xl text-blue-600  border-2 border-blue-600 rounded-lg shadow-sm  hover:text-white hover:bg-blue-600 active:border-blue-900   active:bg-blue-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Volunteer</a>
+                <a href="https://secure.actblue.com/donate/minkhillsdems"
+                    class="px-5 py-2 text-xl text-white bg-red-600 border-2 border-red-600 rounded-lg shadow-sm shadow-red-900 hover:text-red hover:bg-red-800 hover:border-red-800 active:border-red-950  hover:shadow-red-950 active:bg-red-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Donate</a>
+            </div>
+            <!-- Hamburger Menu (Only visible on small screens) -->
+            <div class="md:hidden "><button id="menu-btn" type="button"
+                    class="z-40 block hamburger md:hidden focus:outline-none ">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+
+                </button></div>
+        </div>
+
+    </nav>
+    <!-- *** Mobile Menu ** -->
+    <div id="mobile-menu"
+        class="fixed z-30 top-0 bottom-0 left-0 hidden flex-col w-full min-h-screen pt-40 p-12 space-y-3 text-4xl text-white font-display bg-slate-900 opacity-95 origin-top animate-open-menu"
+        aria-label="mobile-menu">
+        <a href="#candidates" class="hover:text-blue-600 text-nowrap self-end">The Candidates</a>
+        <a href="#priorities" class="hover:text-blue-600 self-end">Priorities</a>
+        <a href="#photoGallery" class=" hover:text-blue-600 text-nowrap self-end">Photo Gallery</a>
+
+        <a href="#signup"
+            class="px-5 py-2 text-xl w-fit self-end text-blue-600 border-2 border-blue-600 rounded-lg shadow-sm  hover:text-white hover:bg-blue-600 active:border-blue-950   active:bg-blue-950  active:shadow-none transition duration-100 ease-out hover:ease-in">Volunteer</a>
+        <a href="https://secure.actblue.com/donate/minkhillsdems"
+            class="px-5 py-2  text-xl w-fit self-end text-white bg-red-600 border-2 border-red-600 rounded-lg shadow-sm shadow-red-900 hover:text-red hover:bg-red-800 hover:border-red-800 active:border-red-950  hover:shadow-red-950 active:bg-red-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Donate</a>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer class="flex flex-col justify-center py-6 m-auto  bg-gradient-to-b from-blue-400 to-blue-600 ">
+        <div class="flex flex-row justify-center align-middle">
+            <img src="/img/logo/MinkHillDemsLogoMulticolor.png" alt="Mink Hill Democrats logo"
+                class="w-[200px] md:w-[250px] self-center p-6">
+            <a href="https://secure.actblue.com/donate/minkhillsdems"
+                class="w-28 h-12 px-5 py-2 self-center text-xl font-display text-white bg-red-600 border-2 border-red-600 rounded-lg shadow-sm shadow-red-900 hover:text-red hover:bg-red-800 hover:border-red-800 active:border-red-950  hover:shadow-red-950 active:bg-red-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Donate</a>
+        </div>
+        <div class="flex flex-row justify-center align-middle m-auto w-96 bg-blue-950 border border-blue-400">
+            <p
+                class=" text-white text-center justify-center p-6 align-middle font-extrabold font-sans leading-normal tracking-wide">
+                Paid For By Friends of Eileen Kelly</p>
+        </div>
+    </footer>
+</body>
+
+</html>
