@@ -16,7 +16,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "priorities-left":
-          "linear-gradient(rgba(100, 170, 250, 0.70), rgba(150, 250, 250, 0.70)), url('../img/backgroundImages/StateHousewFlowersBlue.png')",
+          "linear-gradient(rgba(100, 170, 250, 0.70), rgba(150, 250, 250, 0.70)), url('../img/backgroundImages/StateHousewFlowersblueLARGE.jpg')",
         "nh-outline": "url(../img/backgroundImages/NHVector.png)",
       },
       keyframes: {

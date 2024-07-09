@@ -4,19 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -26,7 +16,7 @@
 
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="/js/script.js" defer></script>
-    <title>Mink Hills Democrats</title>
+    <title>Our Priorities</title>
 </head>
 
 <body class="overflow-x-hidden bg-blue-100">
@@ -38,17 +28,20 @@
         <div class="flex items-center justify-between px-12 md:px-1 md:justify-center gap-10 lg-gap-5">
             <!-- Logo -->
             <div class="z-30">
-                <a href="#hero"><img src="/img/logo/MinkHillsDemsLogo.png" alt="" id="logo" class="w-24 "></a>
+                <a href="./index.html#hero"><img src="/img/logo/MinkHillsDemsLogo.png" alt="" id="logo"
+                        class="w-24 "></a>
             </div>
             <!-- Center Main Menu Items -->
             <div class="hidden lg:w-2/5 md:flex flex-row justify-center space-x-4 lg:space-x-6 text-blue-950 ">
-                <a href="#candidates" class="hover:text-blue-600 text-xl lg:text-2xl text-nowrap">The Candidates</a>
-                <a href="#priorities" class="hover:text-blue-600 text-xl lg:text-2xl">Priorities</a>
-                <a href="#photoGallery" class=" hover:text-blue-600 text-xl lg:text-2xl text-nowrap">Photo Gallery</a>
+                <a href="./index.html#candidates" class="hover:text-blue-600 text-xl lg:text-2xl text-nowrap">The
+                    Candidates</a>
+                <a href="./index.html#priorities" class="hover:text-blue-600 text-xl lg:text-2xl">Priorities</a>
+                <a href="./index.html#photoGallery" class=" hover:text-blue-600 text-xl lg:text-2xl text-nowrap">Photo
+                    Gallery</a>
             </div>
             <!-- Right CTA Buttons-->
             <div class="hidden md:flex flex-row space-x-4">
-                <a href="#signup"
+                <a href="./index.html#signup"
                     class="px-5 py-2 text-xl text-blue-600  border-2 border-blue-600 rounded-lg shadow-sm  hover:text-white hover:bg-blue-600 active:border-blue-900   active:bg-blue-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Volunteer</a>
                 <a href="https://secure.actblue.com/donate/minkhillsdems"
                     class="px-5 py-2 text-xl text-white bg-red-600 border-2 border-red-600 rounded-lg shadow-sm shadow-red-900 hover:text-red hover:bg-red-800 hover:border-red-800 active:border-red-950  hover:shadow-red-950 active:bg-red-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Donate</a>
@@ -68,16 +61,133 @@
     <div id="mobile-menu"
         class="fixed z-30 top-0 bottom-0 left-0 hidden flex-col w-full min-h-screen pt-40 p-12 space-y-3 text-4xl text-white font-display bg-slate-900 opacity-95 origin-top animate-open-menu"
         aria-label="mobile-menu">
-        <a href="#candidates" class="hover:text-blue-600 text-nowrap self-end">The Candidates</a>
-        <a href="#priorities" class="hover:text-blue-600 self-end">Priorities</a>
-        <a href="#photoGallery" class=" hover:text-blue-600 text-nowrap self-end">Photo Gallery</a>
+        <a href="./index.html#candidates" class="hover:text-blue-600 text-nowrap self-end">The Candidates</a>
+        <a href="./index.html#priorities" class="hover:text-blue-600 self-end">Priorities</a>
+        <a href="./index.html#photoGallery" class=" hover:text-blue-600 text-nowrap self-end">Photo Gallery</a>
 
-        <a href="#signup"
+        <a href="./index.html#signup"
             class="px-5 py-2 text-xl w-fit self-end text-blue-600 border-2 border-blue-600 rounded-lg shadow-sm  hover:text-white hover:bg-blue-600 active:border-blue-950   active:bg-blue-950  active:shadow-none transition duration-100 ease-out hover:ease-in">Volunteer</a>
         <a href="https://secure.actblue.com/donate/minkhillsdems"
             class="px-5 py-2  text-xl w-fit self-end text-white bg-red-600 border-2 border-red-600 rounded-lg shadow-sm shadow-red-900 hover:text-red hover:bg-red-800 hover:border-red-800 active:border-red-950  hover:shadow-red-950 active:bg-red-950 active:shadow-none transition duration-100 ease-out hover:ease-in">Donate</a>
 
     </div>
+    <!-- *** Priorities *** -->
+    <section id="priorities" class="">
+        <!-- Container for text and main photo -->
+        <div class="flex flex-col mx-auto ">
+            <!-- Top Text -->
+            <div class=" flex flex-col py-12 items-center bg-priorities-left bg-fixed bg-cover bg-center bg-no-repeat">
+                <h1 class="font-display text-blue-950 text-6xl">Our Priorities</h1>
+            </div>
+            <div class="my-8 mx-auto ">
+                <div id="reproductiveFreedom"
+                    class="flex flex-row md:w-3/5 mx-auto  text-blue-900 font-display text-4xl p-4 bg-blue-100 gap-4">
+                    <!-- SVG for male & female symbol -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="40" viewBox="0 0 78 77" fill="none">
+                        <path
+                            d="M22.6364 57.8847C33.4812 57.8847 42.2727 50.4457 42.2727 41.2693C42.2727 32.0929 33.4812 24.6539 22.6364 24.6539C11.7915 24.6539 3 32.0929 3 41.2693C3 50.4457 11.7915 57.8847 22.6364 57.8847ZM22.6364 57.8847V68.9616M22.6364 74.5001V68.9616M22.6364 68.9616H16.0909M22.6364 68.9616H29.1818"
+                            stroke="#1e3a8a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M56.124 18.415C52.5732 15.4249 47.678 13.5769 42.2727 13.5769C31.4279 13.5769 22.6364 21.0159 22.6364 30.1923C22.6364 39.3687 31.4279 46.8077 42.2727 46.8077C53.1176 46.8077 61.9091 39.3687 61.9091 30.1923C61.9091 25.5896 59.6973 21.424 56.124 18.415ZM56.124 18.415L75 2.5M75 2.5H61.9091M75 2.5V13.5769"
+                            stroke="#1e3a8a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>Protect
+                    Reproductive Freedom
+                </div>
+                <p class="bg-blue-100 md:w-3/5 mx-auto px-6 pb-8   text-xl">Decisions about reproductive
+                    healthcare
+                    should be
+                    made by a
+                    woman
+                    and
+                    her doctor. Government should not interfere with access to safe, legal abortion and contraception.
+                    We
+                    support codifying NH’s laws to protect the right to abortion services.
+
+                </p>
+
+
+                <div id="affordableHousing"
+                    class="flex flex-row md:w-3/5 mx-auto  text-blue-900 font-display text-4xl p-4 bg-blue-100 gap-4">
+                    <i class="iconoir-home-alt text-4xl"></i>
+                    Prioritize Affordable Housing
+                </div>
+                <p class="bg-blue-100 md:w-3/5 mx-auto px-6 pb-8   text-xl">New Hampshire has an affordable housing
+                    crisis. Our young families cannot afford to live and raise their families here. This is a factor in
+                    NH’s
+                    workforce shortage. We need affordable housing projects and the infrastructure to support them.
+
+                </p>
+
+
+                <div id="economicGrowth"
+                    class="flex flex-row md:w-3/5 mx-auto  text-blue-900 font-display text-4xl p-4 bg-blue-100 gap-4">
+                    <i class="iconoir-piggy-bank text-4xl"></i>
+                    Support Economic Growth in NH
+                </div>
+                <p class="bg-blue-100 md:w-3/5 mx-auto px-6 pb-8   text-xl"> New Hampshire has a low unemployment
+                    rate and a strong labor market. However, worker shortages limit NH businesses’ ability to hire
+                    enough
+                    employees.
+
+                    Many NH families still struggle to make ends meet. We support hard-working union members and their
+                    families
+                    and investing in our infrastructure that will provide high paying jobs to boost our economy.
+
+                </p>
+                <div id="childCare"
+                    class="flex flex-row md:w-3/5 mx-auto  text-blue-900 font-display text-4xl p-4 bg-blue-100 gap-4">
+                    <!-- SVG for childcare -->
+                    <svg width="36" height="40" viewBox="0 0 72 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M54 60.5L65.4728 49.0272C65.8104 48.6896 66 48.2318 66 47.7544V32C66 29.5147 63.9853 27.5 61.5 27.5V27.5C59.0147 27.5 57 29.5147 57 32V45.5"
+                            stroke="#1e3a8a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M54 48.5L56.5744 45.9256C56.8469 45.6531 57 45.2835 57 44.8981V44.8981C57 44.3477 56.689 43.8445 56.1967 43.5984L54.868 42.934C52.5581 41.779 49.7682 42.2318 47.9421 44.0579L45.2574 46.7426C44.1321 47.8679 43.5 49.394 43.5 50.9853V60.5"
+                            stroke="#1e3a8a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M18 60.5L6.52721 49.0272C6.18964 48.6896 6 48.2318 6 47.7544V32C6 29.5147 8.01472 27.5 10.5 27.5V27.5C12.9853 27.5 15 29.5147 15 32V45.5"
+                            stroke="#1e3a8a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M18 48.5L15.4256 45.9256C15.1531 45.6531 15 45.2835 15 44.8981V44.8981C15 44.3477 15.311 43.8445 15.8033 43.5984L17.132 42.934C19.4419 41.779 22.2318 42.2318 24.0579 44.0579L26.7426 46.7426C27.8679 47.8679 28.5 49.394 28.5 50.9853V60.5"
+                            stroke="#1e3a8a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M34.9836 6.5C38.2369 6.5 40.2703 10.0219 38.6436 12.8394C37.8886 14.147 36.4934 14.9525 34.9836 14.9525C31.7302 14.9525 29.6968 11.4306 31.3235 8.61313C32.0785 7.30552 33.4737 6.5 34.9836 6.5ZM39.7064 23.8593L40.8792 33.231C41.0482 34.6257 40.0656 35.883 38.6815 36.0626C37.2974 36.2422 36.0295 35.2491 35.8499 33.865L35.385 30.167H34.5821L34.1172 33.865C33.9481 35.2596 32.6802 36.2422 31.2856 36.0626C29.8909 35.883 28.9083 34.6257 29.0879 33.231L30.2607 23.8488L28.1687 25.6238C27.1016 26.5324 25.4956 26.3951 24.5975 25.3279C23.6995 24.2608 23.8262 22.6548 24.8934 21.7568L27.8412 19.2633C29.8381 17.5728 32.3738 16.643 34.9836 16.643C37.5933 16.643 40.129 17.5728 42.1259 19.2527L45.0737 21.7462C46.1409 22.6548 46.2782 24.2502 45.3696 25.3174C44.4609 26.3845 42.8655 26.5219 41.7984 25.6132L39.7064 23.8488V23.8593Z"
+                            fill="#1e3a8a" />
+                    </svg>
+                    Strengthen Childcare in NH
+                </div>
+                <p class="bg-blue-100 md:w-3/5 mx-auto px-6 pb-8   text-xl"> Childcare is one of the most expensive
+                    costs for young families in NH. Access to good quality, affordable childcare is also a challenge. We
+                    need to
+                    do more to help retain NH’s young families so they can raise their families in our state.
+
+                </p>
+
+                <div id="protectEducation"
+                    class="flex flex-row md:w-3/5 mx-auto  text-blue-900 font-display text-4xl p-4 bg-blue-100 gap-4">
+                    <i class="iconoir-graduation-cap text-4xl"></i>
+                    Protect Public Education
+                </div>
+                <p class="bg-blue-100 md:w-3/5 mx-auto px-6 pb-8 text-xl"> New Hampshire students have a right to
+                    a good quality public education. Taxpayer money should go to public schools and not to private and
+                    parochial
+                    schools. The newly enacted voucher program is draining our Education Trust Fund and will raise our
+                    property
+                    taxes even more.
+                </p>
+                <div id="climateAction"
+                    class="flex flex-row md:w-3/5 mx-auto  text-blue-900 font-display text-4xl p-4 bg-blue-100 gap-4">
+                    <i class="iconoir-leaf text-4xl"></i>
+                    Enact a Climate Action Plan for NH and Renewable Energy
+                </div>
+                <p class="bg-blue-100 md:w-3/5 mx-auto px-6 pb-8   text-xl"> Climate change due to our excessive
+                    use of fossil fuels will continue to harm our state. We need to join our New England neighbors in
+                    demanding
+                    a shift to renewable energy sources such as offshore wind and solar that will save our climate, grow
+                    thousands of good paying jobs. and provide a stable environment for our nature-based economy.
+                </p>
+            </div>
+    </section>
 
 
 
@@ -87,8 +197,7 @@
 
 
 
-
-    <footer class="flex flex-col justify-center py-6 m-auto  bg-gradient-to-b from-blue-400 to-blue-600 ">
+    <footer class="flex flex-col   py-6 m-auto  bg-gradient-to-b from-blue-400 to-blue-600 ">
         <div class="flex flex-row justify-center align-middle">
             <img src="/img/logo/MinkHillDemsLogoMulticolor.png" alt="Mink Hill Democrats logo"
                 class="w-[200px] md:w-[250px] self-center p-6">
@@ -97,7 +206,7 @@
         </div>
         <div class="flex flex-row justify-center align-middle m-auto w-96 bg-blue-950 border border-blue-400">
             <p
-                class=" text-white text-center justify-center p-6 align-middle font-extrabold font-sans leading-normal tracking-wide">
+                class=" text-white   justify-center p-6 align-middle font-extrabold font-sans leading-normal tracking-wide">
                 Paid For By Friends of Eileen Kelly</p>
         </div>
     </footer>

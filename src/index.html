@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,7 +75,7 @@
         <div class="container flex flex-col mx-auto p-6 md:flex-row md:mb-0 md:gap-6">
             <!-- Top Text -->
             <div
-                class="flex flex-col space-y-2 md:justify-center md:w-1/2 bg-nh-outline bg-center bg-contain bg-no-repeat">
+                class="flex flex-col space-y-2 md:justify-center mb-4 md:w-1/2 bg-nh-outline bg-center bg-contain bg-no-repeat">
                 <h1
                     class="font-display text-6xl tracking-widest font-medium text-blue-800 text-center md:text-7xl md:tracking-wide ">
                     Bradford
@@ -123,20 +124,23 @@
     <section class="flex flex-wrap lg:flex-row pb-12 gap-4 lg:gap-12 justify-center">
         <!-- Voting Info Flag -->
         <div class="ctaFlagVoting">
-            <div class="w-36 h-52 md:w-56 md:h-64 xl:w-72 xl:h-80  bg-blue-900 justify-center inline-flex">
-                <div class="flex-col justify-center items-center gap-3 inline-flex">
-                    <!-- Icon Noir Icon -->
-                    <i class="iconoir-badge-check text-5xl md:text-8xl text-white"></i>
-                    <div class="self-stretch text-center text-white text-3xl md:text-4xl font-normal font-display">
-                        Voting<br />Info</div>
+            <a href="votinginfo.html">
+                <div class="w-36 h-52 md:w-56 md:h-64 xl:w-72 xl:h-80  bg-blue-900 justify-center inline-flex">
+                    <div class="flex-col justify-center items-center gap-3 inline-flex">
+                        <!-- Icon Noir Icon -->
+                        <i class="iconoir-badge-check text-5xl md:text-8xl text-white"></i>
+                        <div class="self-stretch text-center text-white text-3xl md:text-4xl font-normal font-display">
+                            Voting<br />Info</div>
+                    </div>
                 </div>
-            </div>
-            <div class="flag-fringe relative bottom-2.5 md:bottom-4 xl:bottom-5 m-0">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292 38" fill="none">
-                    <path d="M0.5 38.7034V19.7034L148.259 0.703369L292.5 19.7034V38.7034L148.259 20.2034L0.5 38.7034Z"
-                        fill="#DE2424" />
-                </svg>
-            </div>
+                <div class="flag-fringe relative bottom-2.5 md:bottom-4 xl:bottom-5 m-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292 38" fill="none">
+                        <path
+                            d="M0.5 38.7034V19.7034L148.259 0.703369L292.5 19.7034V38.7034L148.259 20.2034L0.5 38.7034Z"
+                            fill="#DE2424" />
+                    </svg>
+                </div>
+            </a>
         </div>
         <!-- Get Involved Flag -->
         <div class="ctaFlagGetInvolved">
@@ -320,30 +324,46 @@
             <!-- Top Text -->
             <div
                 class="bg-priorities-left md:bg-contain  bg-fixed flex flex-col py-12 md:space-y-2 items-center md:justify-center md:w-1/2">
-                <h1 class="font-display text-blue-950 text-6xl">Our Priorities</h1>
-                <h2 class="font-display text-blue-950 text-2xl">Click on the topic to learn more</h2>
+                <a href="../src/priorities.html">
+                    <h1 class="font-display text-blue-950 text-6xl">Our Priorities</h1>
+                </a>
+                <h2 class="font-display text-blue-950 text-2xl">Click on a topic to learn more</h2>
             </div>
             <div
                 class="flex flex-col space-y-2 items-center text-2xl py-16 px-4 md:py-44 md:px-90 md:justify-around md:w-1/2 font-display text-white md:text-4xl">
-                <ul class="space-y-12">
-                    <li class="flex flex-row  gap-4"> <img src="../img/svg/f&msymbol.svg"
-                            alt="Male and Female Icon">Protect
-                        Reproductive Freedom</li>
 
-                    <li class="flex flex-row  gap-4"><i class="iconoir-home-alt text-4xl"></i>Prioritize
-                        Affordable Housing</li>
-                    <li class="flex flex-row  gap-4"><i class="iconoir-piggy-bank text-4xl"></i>Support Economic Growth
-                        in
-                        NH</li>
-                    <li class="flex flex-row  gap-4"><img src="../img/svg/childCare.svg" alt=""></i>Strengthen Childcare
-                        in NH
+                <ul class="space-y-12">
+                    <li class="flex flex-row  gap-4"> <img src="../img/svg/f&msymbol.svg" alt="Male and Female Icon"><a
+                            href="../src/priorities.html#reproductiveFreedom" class="hover:text-blue-400">Protect
+                            Reproductive Freedom</a></li>
+
+
+                    <li class="flex flex-row gap-4"> <i class="iconoir-home-alt text-4xl"></i><a
+                            href="../src/priorities.html#affordableHousing" class=" hover:text-blue-400">Prioritize
+                            Affordable Housing</a></li>
+
+                    <li class="flex flex-row gap-4"><i class="iconoir-piggy-bank text-4xl"></i><a
+                            href="../src/priorities.html#economicGrowth" class=" hover:text-blue-400">Support
+                            Economic
+                            Growth
+                            in
+                            NH</a></li>
+                    <li class="flex flex-row gap-4"><img src="../img/svg/childCare.svg" alt=""></i><a
+                            href="../src/priorities.html#childCare" class=" hover:text-blue-400">Strengthen
+                            Childcare
+                            in NH</a>
                     </li>
-                    <li class="flex flex-row  gap-4"><i class="iconoir-graduation-cap text-4xl"></i>Protect Public
-                        Education
+                    <li class="flex flex-row  gap-4"><i class="iconoir-graduation-cap text-4xl"></i><a
+                            href="../src/priorities.html#protectEducation" class=" hover:text-blue-400">Protect Public
+                            Education</a>
                     </li>
-                    <li class="flex flex-row  gap-4"><i class="iconoir-leaf text-4xl"></i>Enact a Climate Action
-                        Plan</li>
-                    <li class="flex flex-row  gap-4"><i class="iconoir-arrow-down-circle text-4xl"></i>Stop Downshifting
+                    <li class="flex flex-row  gap-4"><i class="iconoir-leaf text-4xl"></i><a
+                            href="../src/priorities.html#climateAction" class=" hover:text-blue-400">Enact a Climate
+                            Action
+                            Plan</a></li>
+                    <li class="flex flex-row  gap-4"><i class="iconoir-arrow-down-circle text-4xl"></i><a
+                            href="../src/priorities.html">Stop
+                            Downshifting</a>
                     </li>
                 </ul>
             </div>
@@ -436,7 +456,7 @@
                             alt="Tony shows his support for Cinde Warmington at a rally outside the Statehouse"></li>
                     <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/tonyRafter.jpg"
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                            alt="Tony with his friends Representative Hal Rafter and "></li>
+                            alt="Tony with his friends Representative Hal Rafter and Representative Kat McGhee."></li>
                     <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/EileenWithWarrenMed.JPG"
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
                             alt="Eileen meeting Senator Elizabeth Warren"></li>
