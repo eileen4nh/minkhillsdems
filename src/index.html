@@ -458,15 +458,19 @@
             <div class="xl:max-w-6xl lg:max-w-4xl md:max-w-2xl sm:max-w-xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view"
                 style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
                 <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-4 lg:grid-cols-3">
+                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/candidatesRaffle.jpg"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Eileen, Stephanie and Tony host a raffle for Henniker Democrats ">
+                    </li>
+                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/StuGreenEileenTony.jpg"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Eileen and Tony with State Senate candidate Stu Green in front of Lake Todd.">
+                    </li>
                     <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/FilingHennikerMed.JPG"
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
                             alt="Stephanie, Eileen, and Tony outside Henniker town offices holding their filing applications">
                     </li>
 
-                    <li><img x-on:click="imageGalleryOpen"
-                            src="../img/photoGalleryImages/BradfordFilingPaying2bucksMed.JPG"
-                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                            alt="Eileen paying the $2 application fee for filing."></li>
                     <li><img x-on:click="imageGalleryOpen"
                             src="../img/photoGalleryImages/BradfordTownHallGroupShotMed.JPG"
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
@@ -510,10 +514,7 @@
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
                             alt="Stephanie with Congresswoman Annie Kuster">
                     </li>
-                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/stephanieTonyRaffle1.jpg"
-                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                            alt="Stephanie and Tony host a raffle for Henniker Democrats">
-                    </li>
+
                     <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/stephanieTonyRaffle2.jpg"
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
                             alt="Stephanie and Tony host a raffle for Henniker Democrats">
@@ -562,7 +563,9 @@
 
             </template>
         </div>
-
+        <div class="flex flex-row mx-auto self-end justify-center text-center p-6">
+            <a href="./photos.html" class="underline text-center">Click here to see more photos!</a>
+        </div>
     </section>
 
 
@@ -572,76 +575,7 @@
             <div class=" flex flex-col py-8 items-center ">
                 <h1 class="font-display text-blue-950 text-5xl">Upcoming Events</h1>
             </div>
-            <div class="my-6 mx-auto ">
-                <h1
-                    class="font-display mx-6 text-5xl font-medium text-blue-600 text-center md:text-5xl md:tracking-wide ">
-                    Soup, Signs, & Swag
-                </h1>
-                <h1 class="font-display text-4xl font-medium text-blue-800 text-center md:text-4xl md:tracking-wide ">
-                    Saturday
-                </h1>
 
-                <h1 class="font-display text-4xl font-medium text-blue-800 text-center md:text-4xl md:tracking-wide ">
-                    September 28</h1>
-                <h2 class="font-display text-2xl font-medium pb-6 text-blue-900 text-center  ">12:30 P.M. to
-                    2:00 P.M.
-                </h2>
-                <ul class="flex flex-col w-3/5 mx-auto font-medium pb-6 text-blue-900 text-center text-wrap text-xl">
-                    <li>Silver Lake
-                    </li>
-                    <li> 29 Bean Road
-                    </li>
-                    <li>Warner, NH</li>
-
-                </ul>
-                <img class="mx-auto px-6" alt="Flyer for the Soup, Signs & Swag event."
-                    src="/img/warnerSoupSingsSwagFlyer.jpg">
-
-            </div>
-            <div class=" starsRow flex flex-row gap-2 justify-center m-auto p-6"> <i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i></div>
-            <div class="my-6 mx-auto ">
-                <h1
-                    class="font-display mx-6 text-5xl font-medium text-blue-600 text-center md:text-5xl md:tracking-wide ">
-                    Henniker Handmade & Homegrown
-                </h1>
-                <h1 class="font-display text-4xl font-medium text-blue-800 text-center md:text-4xl md:tracking-wide ">
-                    Saturday & Sunday
-                </h1>
-
-                <h1 class="font-display text-4xl font-medium text-blue-800 text-center md:text-4xl md:tracking-wide ">
-                    September 28-29</h1>
-                <h2 class="font-display text-2xl font-medium pb-6 text-blue-900 text-center  ">10:00 A.M. to
-                    4:00 P.M.
-                </h2>
-                <ul class="flex flex-col w-3/5 mx-auto font-medium pb-6 text-blue-900 text-center text-wrap text-xl">
-                    <li>Community Center Park
-                    </li>
-                    <li class="pb-6"> 57 Main Street Henniker, NH
-                    </li>
-                    <li>Come visit the Bradford / Henniker Booth at the event!</li>
-
-                </ul>
-                <img class="mx-auto px-6" alt="Flyer for the Heniniker Handmade & Homegrown event."
-                    src="/img/HennikerHHFlyer.png">
-
-            </div>
-            <div class=" starsRow flex flex-row gap-2 justify-center m-auto p-6"> <i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i><i
-                    class="iconoir-star-solid text-xs text-blue-600"></i></div>
             <div class="my-6 mx-auto ">
                 <h1
                     class="font-display mx-6 text-4xl font-medium text-blue-600 text-center md:text-4xl md:tracking-wide ">
@@ -682,8 +616,41 @@
                     </li>
 
                 </ul>
-                <div class="flex flex-row mx-auto self-end justify-center text-center">
-                    <a href="./events.html" class="underline text-center">Click here to view current and past events</a>
+
+                <div class=" starsRow flex flex-row gap-2 justify-center m-auto p-6"> <i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i><i
+                        class="iconoir-star-solid text-xs text-blue-600"></i></div>
+                <div class="my-6 mx-auto ">
+                    <h1
+                        class="font-display mx-6 text-5xl font-medium text-blue-600 text-center md:text-5xl md:tracking-wide ">
+                        New Hampshire Legislative Election Forum
+                    </h1>
+                    <h1
+                        class="font-display text-4xl font-medium text-blue-800 text-center md:text-4xl md:tracking-wide ">
+                        Wednesday, October 16</h1>
+                    <h2 class="font-display text-2xl font-medium  text-blue-900 text-center  ">6:00 pm
+                    </h2>
+                    <h2 class="font-display text-2xl font-medium pb-6 text-blue-900 text-center  ">Meet and greet at
+                        5:30pm
+                    </h2>
+                    <ul
+                        class="flex flex-col w-3/5 mx-auto font-medium pb-6 text-blue-900 text-center text-wrap text-xl">
+                        <li>Simon Center Great Room
+                        </li>
+                        <li>98 Bridge Street
+                        </li>
+                        <li>Henniker, NH</li>
+
+                    </ul>
+                    <img class="mx-auto px-6" alt="Flyer for the New Hampshire Legislative Election Forum."
+                        src="/img/events/NHLEF24Flyer.jpg">
+
                 </div>
                 <div class=" starsRow flex flex-row gap-2 justify-center m-auto p-6"> <i
                         class="iconoir-star-solid text-xs text-blue-600"></i><i
@@ -694,6 +661,9 @@
                         class="iconoir-star-solid text-xs text-blue-600"></i><i
                         class="iconoir-star-solid text-xs text-blue-600"></i><i
                         class="iconoir-star-solid text-xs text-blue-600"></i></div>
+                <div class="flex flex-row mx-auto self-end justify-center text-center">
+                    <a href="./events.html" class="underline text-center">Click here to view current and past events</a>
+                </div>
 
     </section>
 
