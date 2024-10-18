@@ -458,6 +458,22 @@
             <div class="xl:max-w-6xl lg:max-w-4xl md:max-w-2xl sm:max-w-xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view"
                 style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
                 <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-4 lg:grid-cols-3">
+                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/ColbyInnCandidates.jpg"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Meet the candidates: Rep Stephanie Payeur - NH House candidate (with Winnie the dog); Karen Liot Hill - candidate for Executive Council; Stu Green - NH Senate Candidate; Eileen Kelly - NH House candidate; Davis Bernstein - Merrimack County Treasurer candidate; Rep Tony Caplan - NH House candidate; David Doherty - Merrimack County Commissioner candidate.">
+                    </li>
+                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/ColbyInnStuSelfie.jpg"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="Thank you to everyone who attended the event at Colby Hill Inn in Henniker on October 9th. It was a great evening! Stu Green takes a selfie with attendees to show the great turnout.">
+                    </li>
+                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/cake.jpg"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="The delicious cake from our Colby Hill Inn event, showing the Mink Hills Democrats logo.">
+                    </li>
+                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/eileenNancy.jpg"
+                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
+                            alt="A special 'Thank You' to Eileen's cousin Nancy Kelly for sponsoring the event! ">
+                    </li>
                     <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/candidatesRaffle.jpg"
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
                             alt="Eileen, Stephanie and Tony host a raffle for Henniker Democrats ">
@@ -465,10 +481,6 @@
                     <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/StuGreenEileenTony.jpg"
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
                             alt="Eileen and Tony with State Senate candidate Stu Green in front of Lake Todd.">
-                    </li>
-                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/FilingHennikerMed.JPG"
-                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                            alt="Stephanie, Eileen, and Tony outside Henniker town offices holding their filing applications">
                     </li>
 
                     <li><img x-on:click="imageGalleryOpen"
@@ -498,14 +510,7 @@
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
                             alt="Eileen meeting Senator Bernie Sanders (With her friend Representative Renny Cushing in the background)">
                     </li>
-                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/EileenWithBidenMed.JPG"
-                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                            alt="Eileen and Beth Rodd listening to President Joe Biden"></li>
 
-                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/BicentCommishMed.JPG"
-                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                            alt="Group photo outside the NH State House for members of the Bicentennial Commision. Eileen is sitting in the front row on the right end.">
-                    </li>
                     <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/stephSign.jpg"
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
                             alt="Stephanie shows her support for protecting reproductive care outside the statehouse.">
@@ -513,11 +518,6 @@
                     <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/payeurKuster.jpg"
                             class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
                             alt="Stephanie with Congresswoman Annie Kuster">
-                    </li>
-
-                    <li><img x-on:click="imageGalleryOpen" src="../img/photoGalleryImages/stephanieTonyRaffle2.jpg"
-                            class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                            alt="Stephanie and Tony host a raffle for Henniker Democrats">
                     </li>
 
                 </ul>
@@ -576,82 +576,62 @@
                 <h1 class="font-display text-blue-950 text-5xl">Upcoming Events</h1>
             </div>
 
-            <div class="my-6 mx-auto ">
+            <div class="my-6 mx-auto">
+                <img class="mx-auto px-6 pb-6" alt="Logo for the Bradford Bridge" src="/img/events/BradfordBridge.png">
                 <h1
                     class="font-display mx-6 text-4xl font-medium text-blue-600 text-center md:text-4xl md:tracking-wide ">
-                    Meet your local Democratic Candidates for the NH House
+                    Bradford Bridge Candidate Forum
                 </h1>
                 <h1 class="font-display text-4xl font-medium text-blue-800 text-center md:text-4xl md:tracking-wide ">
-                    Wednesday,
-                    October 9th</h1>
-                <h2 class="font-display text-2xl font-medium pb-6 text-blue-900 text-center  ">5:30 pm
+                    Saturday,
+                    October 26th</h1>
+                <h2 class="font-display text-2xl font-medium pb-6 text-blue-900 text-center  ">10 am - 12 pm
                 </h2>
                 <ul
                     class="flex flex-col w-3/5 mx-auto font-medium pb-6 px-6 text-blue-900 text-center text-wrap text-xl">
-                    <li>At the Barn
+                    <li>Bradford Town Hall
                     </li>
-                    <li>Colby Hill Inn</li>
-                    <li class="pb-6"> 33 The Oaks Henniker, NH 03242
+                    <li>75 West Main Street</li>
+                    <li class="pb-6"> Bradford, NH
                     </li>
-                    <li class="pb-6">Rep Tony Caplan <i class="iconoir-star-solid text-xs text-blue-600 px-2"></i>
-                        Eileen
-                        Kelly <i class="iconoir-star-solid text-xs text-blue-600 px-2"></i> Rep Stephanie Payeur</li>
-                    <li>along with</li>
-                    <li>State Senate Candidate Stu Green</li>
-                    <li>County Treasurer Candidate Davis Bernstein</li>
-                    <li>County Commissioner Candidate David Doherty</li>
-                    <li class="pb-6">Executive Council Candidate Karen Liot Hill</li>
-                    <li><strong>Special Guest Speaker</strong></li>
-                    <li class="pb-6"> Matt Wilhelm, NH House Democratic Leader</li>
-                    <li>This will be a fun night of gratitude for all who are working to help
-                        Team Blue win this November!</li>
-                    <li>Cocktail Menu Served <i class="iconoir-star-solid text-xs px-2 text-blue-600"></i> Raffle <i
-                            class="iconoir-star-solid text-xs text-blue-600 px-2"></i> Music <i
-                            class="iconoir-star-solid text-xs text-blue-600 px-2"></i> Cash Bar</li>
-                    <li class="pb-6">Bring the Joy! Bring your Laughter!
-                        And we’ll provide a Kamala & Tim inspired playlist!</li>
-                    <li>Donations will be gratefully accepted.</li>
-                    <li>For more information email Eileen at: <a href="mailto: Eileen4NH@gmail.com"
-                            class="underline">eileen4nh@gmail.com</a>
-                    </li>
+                    <li>To give Bradford voters an opportunity to hear directly from local candidates, the
+                        Bradford Bridge is sponsoring a candidate forum.</li>
+                    <li class="pb-2"> We are inviting candidates for NH State
+                        Representative and State Senate. </li>
+                    <li>Hear what the candidates have to say
+                        about topics important to NH voters
+                        including:</li>
+
 
                 </ul>
-
-                <div class=" starsRow flex flex-row gap-2 justify-center m-auto p-6"> <i
-                        class="iconoir-star-solid text-xs text-blue-600"></i><i
-                        class="iconoir-star-solid text-xs text-blue-600"></i><i
-                        class="iconoir-star-solid text-xs text-blue-600"></i><i
-                        class="iconoir-star-solid text-xs text-blue-600"></i><i
-                        class="iconoir-star-solid text-xs text-blue-600"></i><i
-                        class="iconoir-star-solid text-xs text-blue-600"></i><i
-                        class="iconoir-star-solid text-xs text-blue-600"></i><i
-                        class="iconoir-star-solid text-xs text-blue-600"></i></div>
-                <div class="my-6 mx-auto ">
-                    <h1
-                        class="font-display mx-6 text-5xl font-medium text-blue-600 text-center md:text-5xl md:tracking-wide ">
-                        New Hampshire Legislative Election Forum
-                    </h1>
-                    <h1
-                        class="font-display text-4xl font-medium text-blue-800 text-center md:text-4xl md:tracking-wide ">
-                        Wednesday, October 16</h1>
-                    <h2 class="font-display text-2xl font-medium  text-blue-900 text-center  ">6:00 pm
-                    </h2>
-                    <h2 class="font-display text-2xl font-medium pb-6 text-blue-900 text-center  ">Meet and greet at
-                        5:30pm
-                    </h2>
+                <div class="flex flex-col py-8 items-center">
                     <ul
-                        class="flex flex-col w-3/5 mx-auto font-medium pb-6 text-blue-900 text-center text-wrap text-xl">
-                        <li>Simon Center Great Room
-                        </li>
-                        <li>98 Bridge Street
-                        </li>
-                        <li>Henniker, NH</li>
-
+                        class="flex flex-col w-3/5 mx-auto font-medium pb-6 px-6 text-blue-900 text-left text-xl list-outside">
+                        <li><i class="iconoir-star-solid text-xs text-blue-900"></i> Energy pricing </li>
+                        <li><i class="iconoir-star-solid text-xs text-blue-900"></i> Public
+                            education and education freedom
+                            accounts</li>
+                        <li><i class="iconoir-star-solid text-xs text-blue-900"></i> Property taxes</li>
+                        <li><i class="iconoir-star-solid text-xs text-blue-900"></i> Reproductive rights</li>
+                        <li><i class="iconoir-star-solid text-xs text-blue-900"></i> Housing</li>
+                        <li><i class="iconoir-star-solid text-xs text-blue-900"></i> Climate
+                            change</li>
+                        <li><i class="iconoir-star-solid text-xs text-blue-900"></i> Immigration</li>
                     </ul>
-                    <img class="mx-auto px-6" alt="Flyer for the New Hampshire Legislative Election Forum."
-                        src="/img/events/NHLEF24Flyer.jpg">
-
                 </div>
+                <ul
+                    class="flex flex-col w-3/5 mx-auto font-medium pb-6 px-6 text-blue-900 text-center text-wrap text-xl">
+                    <li>This is not a debate. During the forum
+                        candidates will answer questions from the
+                        moderator.</li>
+                    <li>The audience is invited to
+                        mingle and chat with the candidates and
+                        other voters after the forum.</li>
+                    <li>
+                        Refreshments will be served.</li>
+                </ul>
+
+
                 <div class=" starsRow flex flex-row gap-2 justify-center m-auto p-6"> <i
                         class="iconoir-star-solid text-xs text-blue-600"></i><i
                         class="iconoir-star-solid text-xs text-blue-600"></i><i
