@@ -33,3 +33,22 @@ window.addEventListener("scroll", function () {
 
   lastScrollTop = scrollTop; //New Position Stored
 });
+
+// *** Read more ***
+
+const toggle = document.getElementById("toggle-text");
+let showText = false;
+const tonyInfoCont = document.getElementById("tony-info-cont");
+
+toggle.addEventListener("click", () => {
+  console.log(toggle);
+  if (!showText) {
+    showText = true;
+    toggle.textContent = "Show Less";
+    tonyInfoCont.hidden = false;
+  } else {
+    showText = false;
+    toggle.textContent = "Read More";
+    tonyInfoCont.hidden = true;
+  }
+});
